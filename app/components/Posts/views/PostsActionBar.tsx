@@ -1,5 +1,7 @@
+"use client";
+
 import React from "react";
-import { usePostsActionController } from "../../../components/Posts/posts.controller"; // todo -- make controller
+import { usePostsActionController } from "../../../components/Posts/posts.controller";
 
 interface ButtonProps {
     children: React.ReactNode;

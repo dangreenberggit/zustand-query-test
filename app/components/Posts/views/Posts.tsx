@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { usePosts } from "../posts.queries";
 import { IPostItem } from "../posts.api";
